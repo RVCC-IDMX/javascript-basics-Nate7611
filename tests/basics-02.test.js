@@ -32,6 +32,7 @@
    TODO: Use the let keyword to create a variable called myClass and assign it the string literal 'JavaScript is Awesome!'.
 */
 // * Add your code BELOW here
+let myClass = 'JavaScript is Awesome!';
 
 // * Don't mess with the test code below here!
 test('myClass', () => {
@@ -50,6 +51,7 @@ test('myClass', () => {
    TODO: Use the let keyword to create a variable called emptyString and assign it an empty string.
 */
 // * Add your code BELOW here
+let emptyString = '';
 
 // * Don't mess with the test code below here!
 test('emptyString', () => {
@@ -67,6 +69,7 @@ test('emptyString', () => {
    TODO: Use the let keyword to create a variable called petName and assign it any string with exactly 6 alphanumeric characters.
 */
 // * Add your code BELOW here
+let petName = 'abc123';
 
 // * Don't mess with the test code below here!
 test('petName', () => {
@@ -84,6 +87,7 @@ test('petName', () => {
    TODO: Use the const keyword to create a constant called firstLetterIsA and assign it any word that starts with a capital A.
 */
 // * Add your code BELOW here
+const firstLetterIsA = 'Apple';
 
 // * Don't mess with the test code below here!
 test('firstLetterIsA', () => {
@@ -103,6 +107,7 @@ test('firstLetterIsA', () => {
    TODO: Ensure that the character between 'one' and 'two' is an escaped horizontal tab (\t), not a space.
 */
 // * Add your code BELOW here
+let counting = 'one\ttwo';
 
 // * Don't mess with the test code below here!
 test('counting', () => {
@@ -122,6 +127,7 @@ test('counting', () => {
    TODO: Use the let keyword to create a variable called mySentence and assign it to 'Hello, ' concatenated with petName.
 */
 // * Add your code BELOW here
+let mySentence = 'Hello, ' + petName;
 
 // * Don't mess with the test code below here!
 test('mySentence', () => {
@@ -142,6 +148,7 @@ test('mySentence', () => {
    TODO: that starts with 'Hello, ' and then includes petName using ${}.
 */
 // * Add your code BELOW here
+let helloPet = `Hello, ${petName}`;
 
 // * Don't mess with the test code below here!
 test('helloPet', () => {
@@ -163,6 +170,8 @@ test('helloPet', () => {
    NOTE: The test ensures that thisMonth no longer equals 'I dunno!'.
 */
 // * Add your code BELOW here
+let thisMonth = 'I dunno!';
+thisMonth = 'September';
 
 // * Don't mess with the test code below here!
 test('thisMonth', () => {
@@ -185,6 +194,10 @@ test('thisMonth', () => {
        'Hi, my name is John Smith and I was born in 2001'
 */
 // * Add your code BELOW here
+let year = 2001;
+let firstName = 'John';
+let lastName = 'Smith';
+let message = `Hi, my name is ${firstName + ' ' + lastName} and I was born in ${year}`;
 
 // * Don't mess with the test code below here!
 test('creating a message', () => {
@@ -201,6 +214,9 @@ test('creating a message', () => {
      - Hint: Use the expression ${price + tax} inside the template literal.
 */
 // * Add your code BELOW here
+let tax = 8.25;
+let price = 100;
+let total = `Your total including tax is $${price + tax}`;
 
 // * Don't mess with the test code below here!
 test('creating a total', () => {
@@ -216,6 +232,9 @@ test('creating a total', () => {
        '<h1>JavaScript</h1><h2>HTML</h2><p>This is a paragraph</p>'
 */
 // * Add your code BELOW here
+let heading1 = 'JavaScript';
+let heading2 = 'HTML';
+let html = `<h1>${heading1}</h1><h2>${heading2}</h2><p>This is a paragraph</p>`;
 
 // * Don't mess with the test code below here!
 test('html', () => {

@@ -26,6 +26,7 @@
    TODO: Use the let keyword to declare a variable called myName and do NOT assign it a value.
 */
 // * Add your code BELOW here
+let myName;
 
 // * Don't mess with the test code below here!
 test('myName', () => {
@@ -44,6 +45,7 @@ test('myName', () => {
    TODO: Use the let keyword to create a variable called age and assign it the number literal 22.
 */
 // * Add your code BELOW here
+let age = 22;
 
 // * Don't mess with the test code below here!
 test('age', () => {
@@ -62,6 +64,7 @@ test('age', () => {
    TODO: Use the const keyword to create a constant called daysInWeek and assign it the number literal 7.
 */
 // * Add your code BELOW here
+const daysInWeek = 7;
 
 // * Don't mess with the test code below here!
 test('daysInWeek', () => {
@@ -87,6 +90,8 @@ test('daysInWeek', () => {
    TODO: DO NOT use the number literal 7 directly.
 */
 // * Add your code BELOW here
+let myWorkDays;
+myWorkDays = daysInWeek;
 
 // * Don't mess with the test code below here!
 test('myWorkDays', () => {
@@ -113,6 +118,9 @@ test('myWorkDays', () => {
    - Consider why the result is NaN and why NaN does not equal any other value.
 */
 // * Add your code BELOW here
+let oops;
+let sillyMath;
+sillyMath = oops * 2;
 
 // * Don't mess with the test code below here!
 test('sillyMath', () => {
@@ -133,6 +141,8 @@ test('sillyMath', () => {
    TODO: In the second line, assign sillyString to the string 'Hello, ' concatenated with oops.
 */
 // * Add your code BELOW here
+let sillyString;
+sillyString = 'Hello, ' + oops;
 
 // * Don't mess with the test code below here!
 test('sillyString', () => {
@@ -151,6 +161,9 @@ test('sillyString', () => {
    (Make sure to use let for variables and const for constants.)
 */
 // * Add your code BELOW here
+let year = 2022;
+let firstName = 'John';
+const taxRate = 0.2;
 
 // * Don't mess with the test code below here!
 test('year', () => {

@@ -33,6 +33,7 @@
    TODO: to the boolean value true.
 */
 // * Add your code BELOW here
+let isSeptember = true;
 
 // * Don't mess with the test code below here!
 test('isSeptember', () => {
@@ -55,6 +56,7 @@ test('isSeptember', () => {
    TODO: any one of the six falsy types of your choice.
 */
 // * Add your code BELOW here
+let isFalsy = NaN;
 
 // * Don't mess with the test code below here!
 test('isFalsy', () => {
@@ -74,6 +76,7 @@ test('isFalsy', () => {
    TODO: any truthy value (but do not use the literal true).
 */
 // * Add your code BELOW here
+let isTruthy = 'Hello!';
 
 // * Don't mess with the test code below here!
 test('isTruthy', () => {
@@ -93,6 +96,7 @@ test('isTruthy', () => {
    TODO: unassigned.
 */
 // * Add your code BELOW here
+let notAssigned;
 
 // * Don't mess with the test code below here!
 test('notAssigned', () => {
@@ -112,6 +116,7 @@ test('notAssigned', () => {
    TODO: Use the let keyword to declare a variable called bloop and assign it to null.
 */
 // * Add your code BELOW here
+let bloop = null;
 
 // * Don't mess with the test code below here!
 test('bloop', () => {
@@ -132,6 +137,7 @@ test('bloop', () => {
    TODO: to the boolean value of !isSeptember.
 */
 // * Add your code BELOW here
+let notSeptember = !isSeptember;
 
 // * Don't mess with the test code below here!
 test('notSeptember', () => {
@@ -152,6 +158,8 @@ test('notSeptember', () => {
    TODO: Use the let keyword to declare a variable called isLoggedIn and assign it the boolean value of !!user.
 */
 // * Add your code BELOW here
+let user = '';
+let isLoggedIn = !!user;
 
 // * Don't mess with the test code below here!
 test('isLoggedIn', () => {
